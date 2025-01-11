@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favourite Music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify3.png" alt="Spotify Logo"> Spotify</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sound</h1>
+            <div class="songItemContainer">
+                <!-- Repeat song item structure for each song -->
+                <div class="songItem">
+                    <img src="song_image.jpg" alt="Song 1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songListPlay"><span class="timestamp">4:25 <i class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="song_image.jpg" alt="Song 2">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songListPlay"><span class="timestamp">4:25 <i class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="song_image.jpg" alt="Song 3">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songListPlay"><span class="timestamp">4:25 <i class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="song_image.jpg" alt="Song 4">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songListPlay"><span class="timestamp">4:25 <i class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="song_image.jpg" alt="Song 5">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songListPlay"><span class="timestamp">4:25 <i class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="song_image.jpg" alt="Song 6">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songListPlay"><span class="timestamp">4:25 <i class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="song_image.jpg" alt="Song 7">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songListPlay"><span class="timestamp">4:25 <i class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="song_image.jpg" alt="Song 8">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songListPlay"><span class="timestamp">4:25 <i class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="song_image.jpg" alt="Song 9">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songListPlay"><span class="timestamp">4:25 <i class="fa-solid fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="songBanner">
+            <!-- Placeholder for song banner (e.g., album artwork) -->
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="music-gif.gif" width="75px" alt="Music GIF" id="gif">
+            <span id="masterSongName">Randal - Waharan (DJ Orcun)</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/8806fcce87.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
